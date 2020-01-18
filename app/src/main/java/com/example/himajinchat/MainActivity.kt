@@ -6,6 +6,7 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import android.widget.Button
 import android.graphics.Color
 import android.view.View
+import android.content.Intent
 
 class MainActivity : AppCompatActivity() {
 
@@ -19,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         button.layoutParams = ConstraintLayout.LayoutParams(ConstraintLayout.LayoutParams.WRAP_CONTENT, ConstraintLayout.LayoutParams.WRAP_CONTENT)
         button.text = "Click me"
         button.setOnClickListener(View.OnClickListener {
-            button.text = "You just clicked me"
+            setContentView(R.layout.activity_sub)
         })
         button.setBackgroundColor(Color.GREEN)
         button.setTextColor(Color.RED)
