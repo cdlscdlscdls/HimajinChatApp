@@ -1,2 +1,0 @@
-# HimajinChatApp
-Android project
