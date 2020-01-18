@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // Create Button 
-        val constraintLayout = findViewById(R.id.constraintLayout) as ConstraintLayout
+        val constraintLayout = findViewById(R.id.mainLayout) as ConstraintLayout
         val button = Button(this)
         button.layoutParams = ConstraintLayout.LayoutParams(ConstraintLayout.LayoutParams.WRAP_CONTENT, ConstraintLayout.LayoutParams.WRAP_CONTENT)
         button.text = "Click me"
