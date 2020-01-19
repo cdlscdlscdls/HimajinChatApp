@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "810029042269",
+    "firebase_url": "https://himajinchat.firebaseio.com",
+    "project_id": "himajinchat",
+    "storage_bucket": "himajinchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810029042269:android:7d4c9bfb47ca8101e3dbb4",
+        "android_client_info": {
+          "package_name": "com.example.himajinchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810029042269-63g6c91orh8s4rid6ec3gg7an6cs679f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.himajinchat",
+            "certificate_hash": "7152fb52bb86992961b1ecbf88fb2d39a886d78d"
+          }
+        },
+        {
+          "client_id": "810029042269-d2bhh5ds9u185tta48mha6vsp2hc8r87.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWjGC5ymR6iWQSbpzOrmraRDCrSkbmUjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810029042269-d2bhh5ds9u185tta48mha6vsp2hc8r87.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
