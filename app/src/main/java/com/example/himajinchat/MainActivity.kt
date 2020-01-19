@@ -1,5 +1,6 @@
 package com.example.himajinchat
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.constraintlayout.widget.ConstraintLayout
@@ -53,6 +54,9 @@ class MainActivity : AppCompatActivity() {
                     Log.w(TAG, "Error getting documents.", exception)
                 }
             setContentView(R.layout.activity_sub)
+            val intent = Intent(this,SubActivity::class.java)
+            startActivity(intent)
+
         })
         button.setBackgroundColor(Color.GREEN)
         button.setTextColor(Color.RED)
