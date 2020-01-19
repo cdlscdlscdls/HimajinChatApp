@@ -55,6 +55,7 @@ class MainActivity : AppCompatActivity() {
                 }
             setContentView(R.layout.activity_sub)
             val intent = Intent(this,SubActivity::class.java)
+            intent.putExtra("myname","nishime")
             startActivity(intent)
 
         })
